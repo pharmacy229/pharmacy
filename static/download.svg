@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd" transform="translate(10 10)">
+        <circle cx="50" cy="50" r="50" fill="#EEF2F7"/>
+        <path fill="#FFF" stroke="#134F70" stroke-width="1.5" d="M30 19.75c-.69 0-1.25.56-1.25 1.25v60c0 .69.56 1.25 1.25 1.25h24.172c.331 0 .649-.132.883-.366l15.829-15.829a1.25 1.25 0 0 0 .366-.883V21c0-.69-.56-1.25-1.25-1.25H30z"/>
+        <text fill="#2CB3D0" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400">
+            <tspan x="32" y="40">Rx</tspan>
+        </text>
+        <path stroke="#134F70" stroke-linecap="round" stroke-width="1.2" d="M33 50.5h33M33 55.5h28M33 61.5h16"/>
+        <path fill="#2CB3D0" stroke="#2CB3D0" stroke-width="1.5" d="M55 81.517V68a2 2 0 0 1 2-2h13.517a.2.2 0 0 1 .142.341L55.34 81.66a.2.2 0 0 1-.341-.142z"/>
+        <circle cx="70" cy="21" r="9" fill="#2CB3D0"/>
+        <g fill="#FFF">
+            <path d="M70.76 15.51l4.145 4.84a1 1 0 0 1-.76 1.65h-8.29a1 1 0 0 1-.76-1.65l4.146-4.84a1 1 0 0 1 1.518 0z"/>
+            <path d="M69 20h2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z"/>
+        </g>
+    </g>
+</svg>

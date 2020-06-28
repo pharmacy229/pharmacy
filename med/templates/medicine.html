@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+ {% load static %}
+ 
+ {% block content %}
+ 
+ 
+<div class="row" id="medicine">
+<div class="col-md-12" >
+<img src="{% static '1503567.jpg' %}"height="350px" width="1350px" />
+</div>
+</div>
+
+ 
+<div class="row" id="card">
+<div class="col-md-10 col-md-offset-1">
+{% for med in products %}
+<div class="col-md-4">
+<div class="col-md-12 subcard">
+
+<img src="/media/{{ med.photo }}" height="150" width="80%" />
+<h3>{{ med.name }}</h3>
+<p class="brand">{{ med.brand }}</p>
+<p class="price">{{ med.price }}</p>
+ <form action="{%  url  'cart:cart_add' med.id  %}" method="post">
+                                {% csrf_token %}
+                                {{ cart_product_form }}
+                                <input type="submit" value="add to cart" class="btn btn-primary">
+                            </form>
+</div>
+</div>
+{% endfor %}
+</div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ {% endblock %}

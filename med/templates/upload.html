@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+ {% load static %}
+ 
+ {% block content %}
+
+ 
+<form action="/insertupload" method="post" enctype="multipart/form-data" >
+{% csrf_token %}
+<div class="container" id="upload">
+<h1 align="center">Upload Your Prescription</h1>
+<input type="text" placeholder="Enter Your Name" name="name"><br>
+<input type="text" placeholder="Address" name="address" ><br>
+<input type="text" placeholder="Phone.no" name="phone" ><br>
+<input type="file" placeholder="image" name="image" value="upload"><br>
+</label>
+<button type="submit"class="btn btn-info btnwhite"align="center"><b>Upload</b></button>
+</div>
+</div>
+</form>
+
+{% endblock %}

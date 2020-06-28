@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+ {% load static %}
+ 
+ {% block content %}
+
+ 
+
+ <form action="/insertcontact" method="post" >
+ {% csrf_token %}
+ <div class="container"id="contact" >
+<h2 align="center">Contact Us</h2>
+    <input type="text" id="fname" name="name" placeholder=" Name.."><br>
+    <input type="text" id="lname" name="subject" placeholder="Subject"><br>
+     <input type="text" id="lname" name="email" placeholder="E-mail">
+    <textarea id="Subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {% endblock %}

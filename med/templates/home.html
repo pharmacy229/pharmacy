@@ -1,0 +1,430 @@
+ {% extends 'base.html' %}
+ {% load static %}
+ 
+ {% block content %}
+
+
+<div class ="row">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1" ></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>
+
+<div class="carousel-inner" >
+<div class="item active">
+<img src="{%  static 'jaideep1.jpg '%}" alt="abc">
+</div>
+<div class="item">
+<img src="{%  static 'jaideep.jpg' %}" alt="abc">
+</div>
+<div class="item">
+<img src="{%  static 'ph1.jpg' %}" alt="abc">
+</div>            
+</div>
+</div>
+</div>
+
+<div class="row text-center" id="gly">
+<div class="col-md-3">
+<div class="icon-wrapper" id="icon">
+<img src="{%  static 'download (2).png' %}"height="80px" width="80px" alt="abc">
+</div>
+<h3 class="head">GenuineMedicines</h3>
+</div>
+<div class="col-md-3">
+<div class="icon-wrapper" id="icon">
+<img src="{%  static 'download.png' %}"height="80px" width="80px" alt="abc">
+</div>
+<h3 class="head">TimelyDelivery</h3>
+</div>
+<div class="col-md-3">
+<div class="icon-wrapper" id="icon">
+<img src="{%  static 'download (3).png' %}"height="80px" width="80px" alt="abc">
+</div>
+<h3 class="head">Easy Returns& Refunds</h3>
+</div>
+
+<div class="col-md-3">
+<div class="icon-wrapper" id="icon">
+<img src="{%  static 'sec.png' %}"height="80px" width="80px" alt="abc">
+<h3 class="head" >Secure Payment</h3>
+</div>
+</div>
+</div>
+
+<div class="row" id="online">
+<div class="col-md-12">
+<h2 align="center">Online Pharmacy</h2><br>
+</div>
+<div class="col-md-4">
+<p><font size="3"><b>Need medicines on a regular basis?</b></font></p>
+<a href="/suscribe/" class="btn btn-default btnwhite">Suscribe Now</a>
+</div>
+
+<div class="col-md-4">
+<p ><font size="3"><b>Have a Prescription?</b></font></p>
+<a href="/upload/" class="btn btn-info btnorange">Upload Prescription</a>
+</div>
+
+<div class="col-md-4">
+<p><font size="3"><b>Don't Have a Prescription?</b></font></p>
+<button class=" btn btn-default btnwhite">Get Started</button>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Flat 50% Off</h3><br>
+<div class="col-md-12" id="subcontent4" id="image3">
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-apple-cider-vinegar-probiotic-plus-raw-unfiltered-unpasteurized-with-the-mother.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>apple-cider-vinegar</b></p>
+<p>Rs.200</p>
+<del><span class="price-amount amount">Rs.400</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-ashwagandha-pure-natural-extract-500mg-capsule.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>ashwagandha-capsule</b></p>
+<p>Rs.100</p>
+<del><span class="price-amount amount">Rs.200</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-biotin-10000mcg-tablet.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>biotin-tablet</b></p>
+<p>Rs.250</p>
+<del><span class="price-amount amount">Rs.500</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-calcium-d3-tablet.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>calcium-tablet</b></p>
+<p>Rs.300</p>
+<del><span class="price-amount amount">Rs.600</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-garcinia-cambogia-with-65-hca-capsule.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>garcinia-capsule</b></p>
+<p>Rs.200</p>
+<del><span class="price-amount amount">Rs.400</span></del><br>
+</div>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">chyavanprash</h3><br>
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'baidyanath-kesari-kalp-royal-chyawanprash.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>kesari-chyawanprash</b></p>
+<p>Rs.250</p>
+<del><span class="price-amount amount">Rs.340</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'DABURAJ01A-1.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>Chyawanprash</b></p>
+<p>Rs.435</p>
+<del><span class="price-amount amount">Rs.500</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'dhootapapeshwar-swamala.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>dhootapapeshwar-swamala</b></p>
+<p>Rs.172</p>
+<del><span class="price-amount amount">Rs.200</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'kerala-ayurveda-chyavanprash.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>keralaAyurveda-chyavanprash</b></p>
+<p>Rs.400</p>
+<del><span class="price-amount amount">Rs.550</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'jiva-chyawanprasha-sugar-free.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>jiva-chyawanprasha sugarfree</b></p>
+<p>Rs.259</p>
+<del><span class="price-amount amount">Rs.300</span></del><br>
+</div>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Sanitizers, Masks & Thermometers</h3><br>
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static '1mg-flexi-tip-digital-thermometer.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>digital-thermometer</b></p>
+<p >Rs.299</p>
+<del><span class="price-amount amount">Rs.350</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'gentouch-surgical-3-ply-face-mask.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>gentouch-face-mask</b></p>
+<p>Rs.28</p>
+<del><span class="price-amount amount">Rs.50</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'grin-health-p-series-anti-pollution-mask-standard-grey.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>anti-pollution-mask</b></p>
+<p>Rs.20</p>
+<del><span class="price-amount amount">Rs.55</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'dr-morepen-mt-111-digi-classic-digital-thermometer.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>digital-thermometer</b></p>
+<p>Rs.123</p>
+<del><span class="price-amount amount">Rs.200</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'jeotrix-chlorhexidine-hand-sanitiser.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>hand-sanitiser</b></p>
+<p>Rs.72</p>
+<del><span class="price-amount amount">Rs.100</span></del><br>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Featured Products</h3><br>
+<div class="col-md-2" id="image3">
+<img src="{% static 'iljh1hyb3ginz0d4k3ge.png' %}"align="center" height="100" width="100"/>
+<p><b>Accu-Chek</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'hp3o6bvoxql0hjkwquec.png' %}"align="center" height="100" width="100" />
+<p><b>Setu</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'qwg7nnsih0ulzxhzbgw3.png' %}"align="center" height="100" width="100" />
+<p><b>Bornvitta</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'v4yzyiozvf4cimllalc3.png' %}"align="center" height="100" width="100" />
+<p><b>Suger Free</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'zfqmedmyvqidcmuqbxzh.png' %}"align="center" height="100" width="100" />
+<p><b>Dabur</b></p>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Top Picks for Bone Joint & Muscle Care</h3><br>
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'shelcal-500-tablet.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>shelcal-500-tablet</b></p>
+<p >Rs.299</p>
+<del><span class="price-amount amount">Rs.550</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'shelcal-xt-tablet.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>shelcal-xt-tablet</b></p>
+<p>Rs.280</p>
+<del><span class="price-amount amount">Rs.350</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'hamdard-roghan-badam-shirin-oil.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>hamdard roghanbadam oil</b></p>
+<p>Rs.50</p>
+<del><span class="price-amount amount">Rs.150</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'dr-ortho-oil.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>dr-ortho-oil</b></p>
+<p>Rs.123</p>
+<del><span class="price-amount amount">Rs.150</span></del><br>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'bio-d3-max-soft-gelatin-capsule.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>bio-d3-max gelatin-capsule</b></p>
+<p>Rs.72</p>
+<del><span class="price-amount amount">Rs.90</span></del><br>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Trending Products</h3><br>
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'endura-mass-weight-gainer-chocolate-refill.jpg' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>endura-mass-weight-gainer</b></p>
+<p>Rs.299</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'healthvit-tulsi-drops.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>healthvit-tulsi-drops</b></p>
+<p>Rs.280</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'jiva-herbal-hand-sanitizer.jfif' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>jiva-herbal-hand-sanitizer</b></p>
+<p>Rs.50</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'himalaya-anti-hair-fall-shampoo.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>himalaya antihairfall shampoo</b></p>
+<p>Rs.123</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<div class="zoomin frame">
+<img src="{% static 'fast-up-charge-natural-vitamin-c-zinc-effervescent-tablet-orange.png' %}"height="100" width="100" align="center"/>
+</div>
+<p><b>vitamin-c-capsule</b></p>
+<p>Rs.72</p>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Popular Categories</h3><br>
+<div class="col-md-2" id="image3">
+<img src="{% static 'nyfabqqzdvs21q55wlsp.png' %}" align="center" height="100" width="100"/>
+<p><b>Protine-Suppliments</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'nwusizmxz93i5qpyukll.png' %}" align="center" height="100" width="100" />
+<p><b>Eldery Care</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'fodiud0py6wqdiuxood1.png' %}" align="center" height="100" width="100" />
+<p><b>HealthCare Devices</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'qxevhgoiuy014nrlfsd7.png' %}"align="center" height="100" width="100" />
+<p><b>Health Food & Drinks</b></p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'blxzdouc9uii99n3kfxc.png' %}"align="center" height="100" width="100" />
+<p><b>Ayureveda</b></p>
+</div>
+</div>
+
+<div class="row" id="image3">
+<h3 align="center">Ayurveda</h3><br>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'xcyxzwfyinrizijahzoe.jpg' %}" height="150" width="200"/>
+<h4><b>Reetha</b></h4>
+<p>Reetha or Soapnuts is also called as Arishtak in Ayurveda and “Soap nut tree” in India.</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'z8mgngpwsj8nvbhxqyvv.jpg' %}" height="150" width="200" />
+<h4><b>Cranberry</b></h4>
+<p>Cranberry capsules is  for the treatment of urinary tract infections as it stop the growth of infection-causing bacteria.</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'si6jrcayw9r2tricoblw.jpg' %}"  height="150" width="200" />
+<h4><b>Banana</b></h4>
+<p>Banana is an edible fruit which is a natural instant energy booster. 
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'qfgz7a8sdtv84wrqsay1.jpg' %}" height="150" width="200" />
+<h4><b>Oranges</b></h4>
+<p>The fruit is a rich source of vitamin C which makes it a powerful immune booster.</p>
+</div>
+
+<div class="col-md-2" id="image3">
+<img src="{% static 'kk9vujwosiizp5ybpgxl.jpg' %}" height="150" width="200" />
+<h4><b>Akarkara</b></h4>
+<p>Akarkara is generally used to manage pain and inflammation related to arthritis due to its antioxidant property.</p>
+</div>
+</div>
+
+
+<div class="row" id="image6">
+<h3 align="center">Shop By Brands</h3><br>
+
+<div class="col-md-12">
+<div class="col-md-3">
+<img src="{% static 'downloadd.jfif'%}"  height="240" width="250" />
+</div>
+
+<div class="col-md-3">
+<img src="{% static 'downloadss.jfif'%}" height="200" width="250" />
+</div>
+
+<div class="col-md-3">
+<img src="{% static 'downloadds.jfif'%}" height="200" width="250" />
+</div>
+
+<div class="col-md-3">
+<img src="{% static 'down.jfif'%}" height="200" width="250" />
+</div>
+</div>
+</div>
+
+
+
+ {% endblock %}

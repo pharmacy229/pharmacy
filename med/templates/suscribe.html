@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+ {% load static %}
+ 
+ {% block content %}
+ 
+ <form action="/insertsubscribe" method="post" >
+ {% csrf_token %}
+  <div class="container" id="suscribe">
+    <h2>Suscribe Now</h2><br>
+    <input type="text" placeholder="E-mail" name="email" " ><br>
+      <button type="submit" class="btn btn-default btnwhite"align="center"><b>Suscribe</b></button>
+    </div>
+  </div>
+</form>
+ 
+{% endblock %}
